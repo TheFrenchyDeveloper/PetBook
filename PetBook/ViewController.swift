@@ -10,10 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var containerView: UIView!
+    @IBOutlet var friendsIV: [UIImageView]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupContainerView()
+        setupFriends()
     }
 
     func setupContainerView() {
@@ -24,5 +26,14 @@ class ViewController: UIViewController {
         containerView.layer.shadowOffset = CGSize(width: 0, height: -4)
     }
     
+    func setupFriends() {
+        friendsIV.forEach { friend in
+            let friendFrame = friend.frame
+            let corner = friendFrame.height / 2
+            friend.layer.cornerRadius = corner
+            friend.layer.borderColor = UIColor.systemBackground.cgColor
+            friend.layer.borderWidth = 2
+        }
+    }
 }
 

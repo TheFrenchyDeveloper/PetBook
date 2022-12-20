@@ -68,20 +68,67 @@
                                             <constraint firstAttribute="height" constant="1" id="MiU-PP-dwK"/>
                                         </constraints>
                                     </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aus" translatesAutoresizingMaskIntoConstraints="NO" id="lRS-1M-U2b">
+                                        <rect key="frame" x="20" y="153" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="4dU-yA-Dof"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="CLG-Mr-zRt"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="IkE-bf-Zns"/>
+                                            <constraint firstAttribute="width" constant="60" id="wfs-c5-0CN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="eaM-Tb-asV">
+                                        <rect key="frame" x="72" y="153" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="1tW-hh-GG8"/>
+                                            <constraint firstAttribute="height" constant="60" id="FQc-pm-zKc"/>
+                                            <constraint firstAttribute="width" constant="60" id="Uwu-gS-RDd"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="y1h-d7-zna"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doggy" translatesAutoresizingMaskIntoConstraints="NO" id="GFT-P6-L3a">
+                                        <rect key="frame" x="124" y="153" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="DgS-rx-yHf"/>
+                                            <constraint firstAttribute="height" constant="60" id="LUl-7L-Iox"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="ce7-3R-xk0"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="zr0-ti-7cs"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ 4.5K Followers" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZM-mk-v9A">
+                                        <rect key="frame" x="192" y="153" width="181" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="ZCE-JB-bUh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                        <color key="textColor" systemColor="systemGray2Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="87b-Po-R6t" firstAttribute="top" secondItem="IEg-PW-ALQ" secondAttribute="bottom" id="2eh-4D-buM"/>
+                                    <constraint firstItem="GFT-P6-L3a" firstAttribute="leading" secondItem="eaM-Tb-asV" secondAttribute="trailing" constant="-8" id="3AG-yi-69V"/>
+                                    <constraint firstItem="lRS-1M-U2b" firstAttribute="top" secondItem="iaq-A8-ApR" secondAttribute="bottom" constant="20" id="AuA-T8-xRT"/>
                                     <constraint firstItem="iaq-A8-ApR" firstAttribute="top" secondItem="87b-Po-R6t" secondAttribute="bottom" id="IDX-kb-H5X"/>
                                     <constraint firstAttribute="trailing" secondItem="iaq-A8-ApR" secondAttribute="trailing" constant="8" id="JBX-Mt-cz5"/>
                                     <constraint firstItem="IEg-PW-ALQ" firstAttribute="top" secondItem="CtK-Og-gBw" secondAttribute="bottom" constant="15" id="KIH-iE-ZMD"/>
                                     <constraint firstItem="CtK-Og-gBw" firstAttribute="top" secondItem="kxI-fp-Z9Y" secondAttribute="top" constant="25" id="NDD-r3-hov"/>
                                     <constraint firstItem="CtK-Og-gBw" firstAttribute="leading" secondItem="kxI-fp-Z9Y" secondAttribute="leading" constant="20" id="PIi-QW-DcG"/>
+                                    <constraint firstItem="7ZM-mk-v9A" firstAttribute="top" secondItem="iaq-A8-ApR" secondAttribute="bottom" constant="20" id="PLW-rz-ldg"/>
                                     <constraint firstItem="87b-Po-R6t" firstAttribute="leading" secondItem="kxI-fp-Z9Y" secondAttribute="leading" constant="20" id="TAa-VQ-9hz"/>
+                                    <constraint firstItem="lRS-1M-U2b" firstAttribute="top" secondItem="iaq-A8-ApR" secondAttribute="bottom" constant="20" id="Uul-E0-SlM"/>
+                                    <constraint firstItem="lRS-1M-U2b" firstAttribute="leading" secondItem="kxI-fp-Z9Y" secondAttribute="leading" constant="20" id="V0V-mo-Xfr"/>
                                     <constraint firstAttribute="trailing" secondItem="87b-Po-R6t" secondAttribute="trailing" constant="20" id="X9S-FF-sOJ"/>
+                                    <constraint firstItem="eaM-Tb-asV" firstAttribute="top" secondItem="iaq-A8-ApR" secondAttribute="bottom" constant="20" id="Y6x-PZ-m5S"/>
                                     <constraint firstAttribute="trailing" secondItem="IEg-PW-ALQ" secondAttribute="trailing" constant="20" id="cz8-7o-dzZ"/>
+                                    <constraint firstItem="7ZM-mk-v9A" firstAttribute="leading" secondItem="GFT-P6-L3a" secondAttribute="trailing" constant="8" id="e8L-jf-jz6"/>
                                     <constraint firstItem="IEg-PW-ALQ" firstAttribute="leading" secondItem="kxI-fp-Z9Y" secondAttribute="leading" constant="20" id="enV-9B-HN5"/>
                                     <constraint firstItem="iaq-A8-ApR" firstAttribute="leading" secondItem="kxI-fp-Z9Y" secondAttribute="leading" constant="8" id="gzG-ok-WPE"/>
+                                    <constraint firstItem="eaM-Tb-asV" firstAttribute="leading" secondItem="lRS-1M-U2b" secondAttribute="trailing" constant="-8" id="jtS-pm-YXL"/>
+                                    <constraint firstItem="GFT-P6-L3a" firstAttribute="top" secondItem="iaq-A8-ApR" secondAttribute="bottom" constant="20" id="qZE-3O-tyK"/>
+                                    <constraint firstItem="lRS-1M-U2b" firstAttribute="leading" secondItem="kxI-fp-Z9Y" secondAttribute="leading" constant="20" id="s03-p9-1qE"/>
+                                    <constraint firstAttribute="trailing" secondItem="7ZM-mk-v9A" secondAttribute="trailing" constant="20" id="s3E-tE-HCS"/>
                                     <constraint firstAttribute="trailing" secondItem="CtK-Og-gBw" secondAttribute="trailing" constant="20" id="zsn-if-N2u"/>
                                 </constraints>
                             </view>
@@ -101,6 +148,9 @@
                     </view>
                     <connections>
                         <outlet property="containerView" destination="kxI-fp-Z9Y" id="QqE-nP-71T"/>
+                        <outletCollection property="friendsIV" destination="lRS-1M-U2b" collectionClass="NSMutableArray" id="Z4H-Hi-0vF"/>
+                        <outletCollection property="friendsIV" destination="eaM-Tb-asV" collectionClass="NSMutableArray" id="TeR-uD-siI"/>
+                        <outletCollection property="friendsIV" destination="GFT-P6-L3a" collectionClass="NSMutableArray" id="RNA-qJ-qFK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -109,7 +159,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="aus" width="5628" height="3752"/>
         <image name="bg" width="7360" height="4912"/>
+        <image name="cow" width="5052" height="3368"/>
+        <image name="doggy" width="5472" height="3648"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -119,6 +172,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
